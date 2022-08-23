@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/pokemon.js"></script> <!--con esta etiqueta anclo mi script con html-->
+        <link rel="stylesheet" href="ESTILO/style.css"> <!--con esta etiqueta anclo mi css con mi html-->
+        <title>POKEMON  </title>
+    </head>
+    <body>
+       
+        <section id="elije-tu-pokemon" ">
+            <H1 class="titulo">POKEMON🔥💧🌱</H1>
+            <h2 class="subtitulo">ELIJE TU POKEMON</h2>
+            <div class="tarjeta">
+                <label for="charizard" class="pokenones"> 
+                    <p>CHARIZARD</p>
+                    <img src="./img/SeekPng.com_machoke-png_7970826.png" alt="charizard">
+                </label> <!--LABEL= Este puede estar asociado con un control ya sea mediante la utilizacion del atributo for -->
+                <input type="radio" name="pokemon" id="charizard" ><!-- input es para que el usuario ingrese un dato en este caso de tipo radio. y con el "for" lo asocio con el LABEL-->
+                <label for="pikachu" class="pokenones">
+                    <p>PIKACHU</p>
+                    <img src="./img/NicePng_cute-pikachu-png_653763.png" alt="pikachu">
+                </label>
+                <input type="radio" name="pokemon" id="pikachu">
+            </div>    
+            
+            <button id="boton-pokemon">
+                <img src="./img/pngwing.com (1).png" alt="start">
+            </button>
+        </section>
+        
+        <section id="seleccionar-ataque" display: flex;>
+                <h1 class="titulo">POKEMON🔥💧🌱</h1>
+                <h2>Elije tu ataque</h2>
+                <p><span id="pokemon-eleccion">pokemon</span> tiene <span id="vidasU">3</span> vidas</p>
+                <p><span id="Caleatorio">aleatorio</span> ,tu contrincante tiene <span id="vidasE">3</span> vidas</p>
+            
+            
+            <p>
+                <button id="boton-fuego" >FUEGO🔥</button>
+                <button id="boton-agua">AGUA💧</button>
+                <button id="boton-tierra">TIERRA🌱</button>
+            </p>
+        </section>
+
+        <section id="mensajes">
+           
+        </section>
+
+        <section id="reiniciar">
+        <button id="boton-reiniciar">Reiniciar</button>
+        </section>
+
+        
+        
+        
+    </body>
+
+</html>

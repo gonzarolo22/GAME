@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+h1{
+    color:#FFB200;
+    font-size: 45px;
+    width: 400px;
+    height: 44px;
+}
+body{
+    font-family: 'Silkscreen', cursive;
+    background-color: #277BC0;
+
+
+
+}
+
+#elije-tu-pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+
+.tarjeta{
+    display: flex;
+
+
+}
+.pokenones{
+    display: flex;
+    align-items: center;
+    width: 174px;
+    height: 100px;
+    background: #FFCB42;
+    margin:  5px;
+    padding: 10px;
+    border: 1px solid #FFCB42;
+    border-radius: 50px;
+
+}
+.pokenones img{
+    width: 75px;
+}
+#boton-pokemon{
+    border: none;
+    padding: 0px 0px 0px;
+    background: bottom;
+    
+
+}
+#boton-pokemon img{
+    width: 30px;
+}
+input{
+    display: none;
+}
+h2{
+    color: #FFB200;
+    
+
+}
